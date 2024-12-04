@@ -1,5 +1,5 @@
-import MallardDuck from './MallardDuck.js';
-import TuftedDuck from './TuftedDuck.js';
+import { MallardDuck } from './MallardDuck.js';
+import { TuftedDuck } from './TuftedDuck.js';
 
 
 const duck1 = new MallardDuck(334);

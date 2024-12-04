@@ -1,4 +1,4 @@
-import Duck from "./Duck.js";
+import { Duck } from "./Duck.js";
 
 export class MallardDuck extends Duck {
   constructor(weight) {
