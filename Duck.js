@@ -1,7 +1,6 @@
-import { Bird } from './Bird.js';
+import Bird from "./Bird.js";
 
 export class Duck extends Bird {
-  
   constructor(weight) {
     super(weight);
   }
@@ -11,11 +10,10 @@ export class Duck extends Bird {
   }
 
   quack() {
-    return "Quack quack!"
+    return "Quack quack!";
   }
 
   swim() {
     return "All ducks float";
   }
-
 }

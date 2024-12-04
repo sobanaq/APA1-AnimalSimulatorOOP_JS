@@ -1,9 +1,9 @@
-import { MallardDuck } from './MallardDuck.js';
-import { TuftedDuck } from './TuftedDuck.js';
+import MallardDuck from './MallardDuck.js';
+import TuftedDuck from './TuftedDuck.js';
 
 
-let duck1 = new MallardDuck(334);
-let duck2 = new TuftedDuck(256);
+const duck1 = new MallardDuck(334);
+const duck2 = new TuftedDuck(256);
 
 
 console.log(duck1.weight);

@@ -1,23 +1,20 @@
 export class Animal {
-
-  _weight
+  #weight;
 
   constructor(weight) {
-    this._weight = weight;
+    this.#weight = weight;
   }
 
   get weight() {
-    return this._weight;
+    return this.#weight;
   }
 
-  set weight(newWeight){
-    this._weight = newWeight;
-    console.log("Weight changed");
+  set weight(newWeight) {
+    this.#weight = newWeight;
+    return `New weight: ${this.weight}`;
   }
 
-  display() {} 
+  display() {}
 
   feed() {}
-
-
 }

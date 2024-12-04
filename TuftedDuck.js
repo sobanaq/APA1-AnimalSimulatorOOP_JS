@@ -1,17 +1,15 @@
-import { Duck } from './Duck.js';
+import Duck from "./Duck.js";
 
 export class TuftedDuck extends Duck {
+  constructor(weight) {
+    super(weight);
+  }
 
-    constructor(weight) {
-      super(weight);
-    }
+  display() {
+    return "I'm a real Tufted duck";
+  }
 
-    display() {
-      return "I'm a real Tufted duck";
-    }
-
-    feed() {
-      return "I dive to feed.";
-    }
-
+  feed() {
+    return "I dive to feed.";
+  }
 }
