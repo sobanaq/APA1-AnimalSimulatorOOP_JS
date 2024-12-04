@@ -4,11 +4,11 @@ A JavaScript-based object-oriented programming demonstration featuring different
 
 ## Class Hierarchy
 
-- [`Animal`](rag://rag_source_7) (Base Class)
-  - [`Bird`](rag://rag_source_1)
-    - [`Duck`](rag://rag_source_3)
-      - [`MallardDuck`](rag://rag_source_6)
-      - [`TuftedDuck`](rag://rag_source_5)
+- [`Animal`](rag://rag_source_7) (Base Class, Abstract Class)
+  - [`Bird`](rag://rag_source_1) (Abstract Class)
+    - [`Duck`](rag://rag_source_3) (Abstract Class)
+      - [`MallardDuck`](rag://rag_source_6) (Concrete Class)
+      - [`TuftedDuck`](rag://rag_source_5) (Concrete Class)
 
 ## Features
 
